@@ -22,7 +22,7 @@ from theano.tensor.nnet import conv
 
 def evaluate_lenet5(learning_rate=0.1, n_epochs=2000, nkerns=[5, 3, 3], batch_size=10, useAllSamples=0, kmax=35, ktop=8, filter_size=[3,5, 5],
                     L2_weight=0.00005, dropout_p=0.8, useEmb=1, task=2, dataMode=2, maxSentLength=60, train_lines=4070, emb_size=4, sentEm_length=100,
-                    Np=[15, 15, 4]):
+                    Np=[15, 15, 3]):
 #def evaluate_lenet5(learning_rate=0.1, n_epochs=2000, nkerns=[6, 12], batch_size=70, useAllSamples=0, kmax=30, ktop=5, filter_size=[10,7],
 #                    L2_weight=0.000005, dropout_p=0.5, useEmb=0, task=5, corpus=1):
 
